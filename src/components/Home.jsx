@@ -3,6 +3,7 @@ import Slider from "./Slider";
 import Navbar from "./Navbar";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Body from "./Body";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <Navbar />
       <Slider />
+      <Body />
       <Contact />
       <Footer />
     </>
