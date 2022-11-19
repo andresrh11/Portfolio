@@ -65,4 +65,8 @@ const SliderContainer = styled.div`
   .h3 {
     color: grey;
   }
+  :hover {
+    transition: 0.5s;
+    cursor: pointer;
+  }
 `;

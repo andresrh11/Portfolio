@@ -6,33 +6,45 @@ export default function Body() {
         <h1 className="h1">Frontend Stack</h1>
         <ul className="grilla">
           <div className="div">
-            <img src="" alt="" />
-            <p className="p">HTML</p>
+            <img className="img" src="" alt="" />
+            <p className="p">
+              <b>HTML</b>
+            </p>
           </div>
           <div className="div">
-            <img src="" alt="" />
+            <img className="img" src="" alt="" />
 
-            <p className="p">CSS</p>
+            <p className="p">
+              <b>CSS</b>
+            </p>
           </div>
           <div className="div">
-            <img src="" alt="" />
+            <img className="img" src="" alt="" />
 
-            <p className="p">React.js</p>
+            <p className="p">
+              <b>React.js</b>
+            </p>
           </div>
           <div className="div">
-            <img src="" alt="" />
+            <img className="img" src="" alt="" />
 
-            <p className="p">JavaScript</p>
+            <p className="p">
+              <b>JavaScript</b>
+            </p>
           </div>
           <div className="div">
-            <img src="" alt="" />
+            <img className="img" src="" alt="" />
 
-            <p className="p">TypeScript</p>
+            <p className="p">
+              <b>TypeScript</b>
+            </p>
           </div>
           <div className="div">
-            <img src="" alt="" />
+            <img className="img" src="" alt="" />
 
-            <p className="p">Prettier</p>
+            <p className="p">
+              <b>Prettier</b>
+            </p>
           </div>
         </ul>
       </div>
@@ -40,24 +52,31 @@ export default function Body() {
         <h1 className="h1">Backend Stack</h1>
         <ul className="grilla">
           <div className="div">
-            <img src="" alt="" />
+            <img className="img" src="" alt="" />
 
-            <p className="p">Node.js</p>
+            <p className="p">
+              <b>Node.js</b>
+            </p>
           </div>
           <div className="div">
-            <img src="" alt="" />
+            <img className="img" src="" alt="" />
 
-            <p className="p">PostgreSQL</p>
+            <p className="p">
+              <b>PostgreSQL</b>
+            </p>
           </div>
           <div className="div">
-            <img src="" alt="" />
+            <img className="img" src="" alt="" />
 
-            <p className="p">Express</p>
+            <p className="p">
+              <b>Express</b>
+            </p>
           </div>
           <div className="div">
-            <img src="" alt="" />
-
-            <p className="p">Sequelize</p>
+            <img className="img" src="" alt="" />
+            <p className="p">
+              <b>Sequelize</b>
+            </p>
           </div>
         </ul>
       </div>
@@ -94,18 +113,24 @@ const BodyContainer = styled.div`
     align-items: center;
   }
   .div {
-    width: 100px;
-    height: 80px;
+    width: 120px;
+    height: 90px;
     border: 1px solid white;
     border-radius: 7px;
     align-items: center;
     display: flex;
     flex-flow: column;
+    justify-content: space-between;
   }
   .p {
     color: white;
   }
   .h1 {
     color: white;
+  }
+  .img {
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
   }
 `;
