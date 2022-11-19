@@ -108,25 +108,24 @@ const BodyContainer = styled.div`
     grid-row: 1/4;
     height: auto;
 
-    align-content: center;
-    justify-content: center;
     align-items: center;
   }
   .div {
     width: 120px;
     height: 90px;
-    border: 1px solid white;
     border-radius: 7px;
     align-items: center;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    background-color: grey;
   }
   .p {
     color: white;
   }
   .h1 {
     color: white;
+    padding-left: 30px;
   }
   .img {
     width: 40px;
