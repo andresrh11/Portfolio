@@ -1,4 +1,14 @@
 import styled from "styled-components";
+import react from "../utils/react.png";
+import html from "../utils/html-5.png";
+import css from "../utils/css-3.png";
+import postgres from "../utils/postgre.png";
+import js from "../utils/js.png";
+import node from "../utils/node-js.png";
+import typescr from "../utils/typescript.png";
+import prettier from "../utils/prettier.png";
+import sequelize from "../utils/sequelize.png";
+import express from "../utils/express.png";
 export default function Body() {
   return (
     <BodyContainer>
@@ -6,41 +16,41 @@ export default function Body() {
         <h1 className="h1">Frontend Stack</h1>
         <ul className="grilla">
           <div className="div">
-            <img className="img" src="" alt="" />
+            <img className="img" src={html} alt="" />
             <p className="p">
               <b>HTML</b>
             </p>
           </div>
           <div className="div">
-            <img className="img" src="" alt="" />
+            <img className="img" src={css} alt="" />
 
             <p className="p">
               <b>CSS</b>
             </p>
           </div>
           <div className="div">
-            <img className="img" src="" alt="" />
+            <img className="img" src={react} alt="" />
 
             <p className="p">
               <b>React.js</b>
             </p>
           </div>
           <div className="div">
-            <img className="img" src="" alt="" />
+            <img className="img" src={js} alt="" />
 
             <p className="p">
               <b>JavaScript</b>
             </p>
           </div>
           <div className="div">
-            <img className="img" src="" alt="" />
+            <img className="img" src={typescr} alt="" />
 
             <p className="p">
               <b>TypeScript</b>
             </p>
           </div>
           <div className="div">
-            <img className="img" src="" alt="" />
+            <img className="img" src={prettier} alt="" />
 
             <p className="p">
               <b>Prettier</b>
@@ -52,28 +62,28 @@ export default function Body() {
         <h1 className="h1">Backend Stack</h1>
         <ul className="grilla">
           <div className="div">
-            <img className="img" src="" alt="" />
+            <img className="img" src={node} alt="" />
 
             <p className="p">
               <b>Node.js</b>
             </p>
           </div>
           <div className="div">
-            <img className="img" src="" alt="" />
+            <img className="img" src={postgres} alt="" />
 
             <p className="p">
               <b>PostgreSQL</b>
             </p>
           </div>
           <div className="div">
-            <img className="img" src="" alt="" />
+            <img className="img" src={express} alt="" />
 
             <p className="p">
               <b>Express</b>
             </p>
           </div>
           <div className="div">
-            <img className="img" src="" alt="" />
+            <img className="img" src={sequelize} alt="" />
             <p className="p">
               <b>Sequelize</b>
             </p>
