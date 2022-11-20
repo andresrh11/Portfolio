@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import linked from "../utils/lin.png";
+import git from "../utils/github.png";
+import ig from "../utils/ig.png";
 export default function Footer() {
   return (
     <FooterContainer>
@@ -7,13 +9,15 @@ export default function Footer() {
         <h3>Creado con React.js, JavaScript, HTML, CSS y StyledComponents</h3>
       </div>
       <div className="div">
-        <a
-          href="https://github.com/andresrh11"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img className="img" src="" alt="" />
-        </a>
+        <div className="div__img">
+          <a
+            href="https://github.com/andresrh11"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="img" src={git} alt="" />
+          </a>
+        </div>
         <div className="div__img">
           <a
             href="https://www.linkedin.com/in/andresrh29/"
@@ -23,13 +27,15 @@ export default function Footer() {
             <img className="img" src={linked} alt="" />
           </a>
         </div>
-        <a
-          href="https://www.instagram.com/andresrh29/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img className="img" src="" alt="" />
-        </a>
+        <div className="div__img">
+          <a
+            href="https://www.instagram.com/andresrh29/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="img" src={ig} alt="" />
+          </a>
+        </div>
       </div>
     </FooterContainer>
   );
