@@ -21,6 +21,6 @@ const HomeContainer = styled.div`
   display: flex;
   flex-flow: column;
   align-items: center;
-  background-color: rgb(16 25 29);
+  background-color: #030313;
   height: auto;
 `;
