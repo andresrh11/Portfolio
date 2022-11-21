@@ -13,52 +13,54 @@ import Proyectos from "./Proyectos";
 export default function Body() {
   return (
     <BodyContainer>
-      <div className="div__grilla">
+      <section className="div__grilla">
         <h1 className="h1">Frontend Stack</h1>
-        <ul className="grilla">
-          <div className="div">
-            <img className="img" src={html} alt="" />
-            <p className="p">
-              <b>HTML</b>
-            </p>
-          </div>
-          <div className="div">
-            <img className="img" src={css} alt="" />
+        <div className="div__contenedor">
+          <ul className="grilla">
+            <div className="div">
+              <img className="img" src={html} alt="" />
+              <p className="p">
+                <b>HTML</b>
+              </p>
+            </div>
+            <div className="div">
+              <img className="img" src={css} alt="" />
 
-            <p className="p">
-              <b>CSS</b>
-            </p>
-          </div>
-          <div className="div">
-            <img className="img" src={react} alt="" />
+              <p className="p">
+                <b>CSS</b>
+              </p>
+            </div>
+            <div className="div">
+              <img className="img" src={react} alt="" />
 
-            <p className="p">
-              <b>React.js</b>
-            </p>
-          </div>
-          <div className="div">
-            <img className="img" src={js} alt="" />
+              <p className="p">
+                <b>React.js</b>
+              </p>
+            </div>
+            <div className="div">
+              <img className="img" src={js} alt="" />
 
-            <p className="p">
-              <b>JavaScript</b>
-            </p>
-          </div>
-          <div className="div">
-            <img className="img" src={typescr} alt="" />
+              <p className="p">
+                <b>JavaScript</b>
+              </p>
+            </div>
+            <div className="div">
+              <img className="img" src={typescr} alt="" />
 
-            <p className="p">
-              <b>TypeScript</b>
-            </p>
-          </div>
-          <div className="div">
-            <img className="img" src={prettier} alt="" />
+              <p className="p">
+                <b>TypeScript</b>
+              </p>
+            </div>
+            <div className="div">
+              <img className="img" src={prettier} alt="" />
 
-            <p className="p">
-              <b>Prettier</b>
-            </p>
-          </div>
-        </ul>
-      </div>
+              <p className="p">
+                <b>Prettier</b>
+              </p>
+            </div>
+          </ul>
+        </div>
+      </section>
       <div className="div__grilla">
         <h1 className="h1">Backend Stack</h1>
         <ul className="grilla">
@@ -102,6 +104,9 @@ const BodyContainer = styled.div`
   display: flex;
   flex-flow: column;
   padding: 10px 10px 10px 10px;
+  .div__contenedor {
+    flex-direction: row-reverse;
+  }
   .div__grilla {
     width: 1300px;
     border-radius: 15px;
@@ -109,6 +114,7 @@ const BodyContainer = styled.div`
     background-color: #80808024;
     padding: 10px 10px 10px 10px;
     margin-top: 10px;
+    background-color: #1b65a7;
   }
   .grilla {
     margin: 30px 100px 20px;
@@ -130,10 +136,10 @@ const BodyContainer = styled.div`
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    background-color: grey;
+    background-color: #f2f4f5;
   }
   .p {
-    color: white;
+    color: #040615;
   }
   .h1 {
     color: white;

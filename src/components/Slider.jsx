@@ -15,9 +15,9 @@ export default function Slider() {
       <section className="info">
         <h1 className="tit"> Hola! Soy Andrés Romero</h1>
         <h2 className="parraf">
-          Ando en la busqueda de la mejor manera de desarrollar, tanto mi
-          código, cómo mi manera de vivir. Apasionado de aprender nuevas
-          tecnologías que complementen mi código.
+          Optimizando la manera de desarrollar, tanto mi código, cómo mi manera
+          de vivir. Apasionado por aprender nuevas tecnologías que complementen
+          mi código.
         </h2>
       </section>
     </SliderContainer>
@@ -40,7 +40,7 @@ const SliderContainer = styled.div`
     padding: 10px 10px 10px 10px;
     border-radius: 15px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
-    background-color: #80808024;
+    background-color: #1b65a7;
     .image {
       box-shadow: 1px 1px 15px rgba(245, 244, 244, 0.5);
       width: 150px;
@@ -60,10 +60,10 @@ const SliderContainer = styled.div`
     font-size: 1.2rem;
     max-width: 42rem;
     text-align: center;
-    color: grey;
+    color: black;
   }
   .h3 {
-    color: grey;
+    color: white;
   }
   :hover {
     transition: 0.5s;

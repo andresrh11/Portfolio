@@ -52,9 +52,9 @@ const FooterContainer = styled.div`
     align-items: center;
     justify-content: space-around;
     border-radius: 8px;
-
+    padding-top: 3px;
     :hover {
-      background-color: white;
+      background-color: #1b65a7;
       transition: all 0.3s ease-out;
     }
   }

@@ -1,8 +1,9 @@
+import styled from "styled-components";
+
 export default function Proyectos() {
   return (
-    <>
+    <ProjectContainer>
       <div className="titulo">
-        <h1>Proyectos</h1>
         <h2>Aquí podrás ver todos los proyectos en los que he trabajado</h2>
       </div>
       <div className="eworld">
@@ -19,7 +20,7 @@ export default function Proyectos() {
         <div>
           <img src="" alt="" />
         </div>
-        <div>
+        <div className="buttons__redirect">
           <button>
             {" "}
             <a
@@ -27,8 +28,7 @@ export default function Proyectos() {
               target="_blank"
               rel="noreferrer"
             >
-              {" "}
-              Visitar Web →
+              <b> Visitar Web →</b>
             </a>
           </button>
           <button>
@@ -39,7 +39,7 @@ export default function Proyectos() {
               rel="noreferrer"
             >
               {" "}
-              Ver Código →
+              <b>Ver Código →</b>
             </a>
           </button>
         </div>
@@ -58,7 +58,7 @@ export default function Proyectos() {
         <div>
           <img src="" alt="" />
         </div>
-        <div>
+        <div className="buttons__redirect">
           <button>
             <a
               href="https://www.github.com/andresrh11/HenryShops.git"
@@ -66,7 +66,7 @@ export default function Proyectos() {
               rel="noreferrer"
             >
               {" "}
-              Visitar Web →
+              <b>Visitar Web →</b>
             </a>
           </button>
           <button>
@@ -76,11 +76,51 @@ export default function Proyectos() {
               rel="noreferrer"
             >
               {" "}
-              Ver Código →
+              <b>Ver Código →</b>
             </a>
           </button>
         </div>
       </div>
-    </>
+    </ProjectContainer>
   );
 }
+const ProjectContainer = styled.div`
+  padding: 10px 30px 10px 30px;
+  h1 {
+    color: white;
+  }
+  p {
+    color: white;
+  }
+
+  h2 {
+    color: white;
+  }
+  button {
+    background-color: #acacac;
+    border: none;
+    border-radius: 3px;
+    width: 110px;
+    height: 25px;
+
+    :hover {
+      transition: 0.3s;
+
+      background-color: black;
+    }
+  }
+  .buttons__redirect {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    :hover {
+      transition: 0.3s;
+      color: #acacac;
+      background-color: black;
+    }
+  }
+`;

@@ -49,7 +49,7 @@ const NavbarContainer = styled.div`
     justify-content: space-between;
   }
   .href {
-    color: white;
+    color: black;
     text-decoration: none;
   }
 `;
