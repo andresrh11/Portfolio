@@ -9,6 +9,7 @@ import typescr from "../utils/typescript.png";
 import prettier from "../utils/prettier.png";
 import sequelize from "../utils/sequelize.png";
 import express from "../utils/express.png";
+import Proyectos from "./Proyectos";
 export default function Body() {
   return (
     <BodyContainer>
@@ -92,6 +93,7 @@ export default function Body() {
       </div>
       <div className="div__grilla">
         <h1 className="h1">Proyectos</h1>
+        <Proyectos />
       </div>
     </BodyContainer>
   );

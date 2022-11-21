@@ -20,8 +20,28 @@ export default function Proyectos() {
           <img src="" alt="" />
         </div>
         <div>
-          <button>Visitar Web</button>
-          <button>Ver Código</button>
+          <button>
+            {" "}
+            <a
+              href="https://www.github.com/andresrh11/PI-Countries.git"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Visitar Web →
+            </a>
+          </button>
+          <button>
+            {" "}
+            <a
+              href="https://www.github.com/andresrh11/PI-Countries.git"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Ver Código →
+            </a>
+          </button>
         </div>
       </div>
       <div className="eworld">
@@ -39,8 +59,26 @@ export default function Proyectos() {
           <img src="" alt="" />
         </div>
         <div>
-          <button>Visitar Web</button>
-          <button>Ver Código</button>
+          <button>
+            <a
+              href="https://www.github.com/andresrh11/HenryShops.git"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Visitar Web →
+            </a>
+          </button>
+          <button>
+            <a
+              href="https://www.github.com/andresrh11/HenryShops.git"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Ver Código →
+            </a>
+          </button>
         </div>
       </div>
     </>
